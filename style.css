@@ -13,4 +13,4 @@ nav{display:flex;gap:24px}nav a{color:white;text-decoration:none;font-weight:700
 footer{background:#10291f;color:#dfe8df;padding:30px 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;max-width:none}
 @media(max-width:800px){nav{gap:10px}nav a{font-size:.78rem}.brand img{height:52px}.hero,.hero-img{min-height:620px;height:620px}.hero-card{left:18px;right:18px;bottom:25px;padding:28px}.musicians{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:500px){nav{display:none}.hero-card{padding:22px}.musicians{grid-template-columns:1fr 1fr;gap:12px}.musicians h3{font-size:1.1rem;margin:10px}.musicians p{margin:0 10px 14px}.gallery{grid-template-columns:1fr}.gallery img{height:230px}}
-.Galerie imgwith:100%aspect-ratio:4/3;object-fit:cover;display:block;border-radius:18px;
+.Galerie imgwith:100%aspect-ratio:4/3;object-fit:contain;display:block;border-radius:18px;
